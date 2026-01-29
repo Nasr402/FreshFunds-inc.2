@@ -1,0 +1,132 @@
+/* 
+background-attachment: fixed; لتلحقك الصورة 
+background-position: 50% 0%;
+background-position: 50px 0px;
+background-position: left center;
+background-size: 100% 100%;
+background-size: cover;
+background-size: contain;
+*/
+/* 
+padding: 10px ;
+
+*/
+/* 
+border-style: solid;
+border-color: rgb(255, 0, 0);
+border-width: 10px;
+*/
+/* .sin {
+    padding: 20px;
+    margin: auto;
+    color: deepskyblue;
+    font-size: 35px;
+    background-image: url("../oii.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 10px;
+    width: fit-content;
+
+} */
+.sidebar {
+    background-color: #191C24;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.sin {
+    display: flex;
+    background-image: url("../ds.jpg");
+    padding-bottom: 40px;
+    height: 425px;
+}
+
+.sin p {
+    color: #ba292e;
+    font-size: xx-large;
+    font-family: cursive;
+    padding: 0px 10px;
+    margin-left: 40px;
+    width: 500px;
+}
+
+.sin img {
+    border: solid #191C24 5px;
+    border-radius: 6px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 550px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.services {
+    display: inline-block;
+    background-color: #191C24;
+    border-radius: 6px;
+    padding: 10px;
+    vertical-align: top;
+    margin: 0px 40px;
+}
+
+.tablya {
+    background-color: #191C24;
+    height: 300px;
+    width: 500px;
+    border-width: 3.5px;
+    border-color: blanchedalmond;
+    border-style: solid;
+    border-collapse: collapse;
+    border-spacing: 2px;
+
+}
+
+.tablya td,
+.tablya th {
+    border: 3px solid blanchedalmond;
+    padding: 4px;
+}
+
+.tablya td {
+    color: #959bb8;
+    font-size: larger;
+    text-align: center;
+}
+
+.tabledad {
+    display: inline-block;
+    background-color: #191C24;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+
+.square {
+    border-radius: 10px;
+    width: min-content;
+    padding: 23px 50px;
+    background-color: #191C24;
+    margin: 15px;
+}
+
+.square img {
+    aspect-ratio: 1 / 1;
+    height: auto;
+    width: 175px;
+}
+
+.square p {
+    font-size: larger;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    border-top: 2px solid #1e293b;
+    margin-top: 100px;
+}
